@@ -1,0 +1,410 @@
+/* Starter code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Baskervville, serif;
+    background-color: #B10003;
+    padding: 40px;
+    color:#ffffff;
+}
+
+h1 {
+
+
+}
+
+h2 {
+
+
+}
+
+
+h3 {
+
+
+}
+
+
+p {
+
+
+}
+
+
+
+/* Header text */
+.header {
+    color: #ffffff;
+    font-family: Cormorant Garamond, serif;
+    font-size: 40px;
+}
+
+.subhead {
+    color: #ffffff;
+    font-family: Cormorant Garamond, serif;
+    font-size: 70px;
+}
+
+
+/* Navigation Bar Container */
+.navbar {
+    background-color: #B10003;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    border: 1px solid #FCCC49;
+}
+
+/* Logo Styling */
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+/* Navigation Menu List */
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+/* Navigation Links */
+.navbar a {
+    color: #FCCC49;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Navigation Links */
+.navbar a:hover {
+    color: #ffffff;
+}
+
+/* Menu stuff*/
+
+.menu {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.menunavbar {
+    color: #ffffff
+    font-size: 23px;
+}
+
+
+/* Content Section Layout */
+
+.content1a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 60px;
+    flex-wrap: nowrap;
+}
+
+.image-box1a img {
+    width: 400px;
+    height: 400px;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+.text-module1a {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module1a h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-module1a p {
+    font-size: 16px;
+    margin: 0 0px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+/* Reverse Content Section Layout */
+
+.content1b {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 60px;
+    flex-wrap: wrap-reverse;
+}
+
+.image-box1b img {
+    order: 1;
+    width: 400px;
+    height: 600px;
+    border-radius: 0px;
+    object-fit: left;
+}
+
+.text-module1b {
+    order: 2;
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module1b h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-module1b p {
+    font-size: 16px;
+    margin: 0 40px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+/* Content Section Layout */
+
+.content1c {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 60px;
+    flex-wrap: nowrap;
+}
+
+.image-box1c img {
+    width: 400px;
+    height: 400px;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+.text-module1c {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module1c h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-module1c p {
+    font-size: 16px;
+    margin: 0 0px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Reverse Content Section Layout */
+
+.content1d {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 60px;
+    flex-wrap: wrap-reverse;
+}
+
+.image-box1d img {
+    order: 1;
+    width: 400px;
+    height: 400px;
+    border-radius: 0px;
+    object-fit: left;
+}
+
+.text-module1d {
+    order: 2;
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module1d h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-module1d p {
+    font-size: 16px;
+    margin: 0 40px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Content Section Layout */
+
+.content1e {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 60px;
+    flex-wrap: nowrap;
+}
+
+.image-box1e img {
+    width: 400px;
+    height: 400px;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+.text-module1e {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module1e h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-module1e p {
+    font-size: 16px;
+    margin: 0 0px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+/* Reverse Content Section Layout */
+
+.content1f {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 60px;
+    flex-wrap: wrap-reverse;
+}
+
+.image-box1f img {
+    order: 1;
+    width: 400px;
+    height: 400px;
+    border-radius: 0px;
+    object-fit: left;
+}
+
+.text-module1f {
+    order: 2;
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module1f h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.text-module1f p {
+    font-size: 16px;
+    margin: 0 40px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+
+/* Drink Menu stuff*/
+
+.drinks {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.drinkmenunavbar {
+    color: #ffffff
+    font-size: 23px;
+}
+
+.text-module2a {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.text-module2b {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.text-module2c {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+
+/* About Section Layout */
+
+
+.owners img {
+    order: 1;
+    width: 400px;
+    height: 370px;
+    border-radius: 0px;
+    object-fit: left;
+}
+
+.about h2 {
+    font-size: 37px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.abouttext p {
+    font-size: 16px;
+    margin: 0 40px;
+    line-height: 1.6;
+    color: #ffffff;
+    order: 2;
+    max-width: 300px;
+    text-align: left;
+}
+
+
+
+/* contact Section Layout */
+
+.contactinfo {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
