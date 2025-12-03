@@ -12,26 +12,12 @@ body {
     color:#4B7339;
 }
 
-h1 {
 
-
-}
-
-h2 {
-
-
+body {
+  cursor: url('beans.png'), auto;
 }
 
 
-h3 {
-   
-}
-
-
-p {
-
-
-}
 
 .music-btn {
   background: #4B7339;
@@ -42,7 +28,7 @@ p {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   font-weight: bold;
-  cursor: pointer;
+  cursor: url('beans2.png'), auto;
   transition: 0.3s;
   margin-left: 40px;
   height: 45px;
@@ -66,24 +52,54 @@ p {
 
 /* Logo Styling */
 .logo img {
-    height: 30px;
+    height: 40px;
     width: auto;
     position: center;
 }
 
 
+
+/* Image swap */
+
+.img-hover-swap {
+  position: relative;
+  width: max-content;
+}
+
+.img-hover-swap img {
+  display: block;
+}
+
+.img-hover-swap .img-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.img-hover-swap:hover .img-hover {
+  opacity: 1;
+}
+
+.img-hover-swap:hover .img-default {
+  opacity: 0;
+}
+
+
+
+
+
+/* Gallery Pictures */
+
 .pics:hover {
     transform: translateY(-10px);
     transition: transform .10s ease;
+    cursor: url('beans2.png'), auto;
 }
 
 td, th {
   padding: 15px; /* Adds 10px of padding on all sides */
 }
-
-
-
-
 
 
 
@@ -99,7 +115,7 @@ td, th {
     width: 100%; 
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(255, 236, 242, 0.6);
 }
 
 /* Modal Image */
@@ -123,15 +139,14 @@ td, th {
     position: absolute;
     top: 560px;
     right: 440px;
-    color: #fff;
+    color: #4B7339;
     font-size: 40px;
     font-weight: bold;
-    cursor: pointer;
-    transition: 0.2s;
+    cursor: url('beans2.png'), auto;
 }
 
 .close:hover {
-    color: #ddd;
+    color: #829E75;
 }
 
 
