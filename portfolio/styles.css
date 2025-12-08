@@ -1,0 +1,64 @@
+/* Starter code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Pixelify Sans, serif;
+    background-color: #FFF1F2;
+    color:#739862;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+
+.button {
+  background: #F3FAEE;
+  color: #739862;
+  padding: 26px;
+  border: 10px solid #EFBECC;
+  font-family: Pixelify Sans, serif;
+  font-size: 19px;
+  position: center;
+  width: 250px;
+  height: 100px;
+  margin: 5px 10px;
+}
+
+.button:hover {
+  background: #F0C5D1;
+  color: #F3FAEE;
+  border: 10px solid #F3FAEE;
+  font-family: Pixelify Sans, serif;
+}
+
+
+a:link {
+  color: #739862;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #739862;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F3FAEE;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
